@@ -89,3 +89,128 @@ body {
 }
 
 /* CONTAINER 2 */
+
+.container2-top {
+    font-size: 36px;
+    font-weight:bolder;
+    color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2-bottom {
+    display: flex;
+    margin: 0px 400px 0px 400px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.container2-bottom img{
+    width: 200px;
+    height: auto;
+    border:solid;
+    border-color:#316ed1;
+    border-radius: 20px;
+    border-width: 3px;
+    box-shadow: 3px 4px 15px #4d545f;
+    padding: 10px;
+}
+
+.container2-bottom .box {
+    display: flex;
+    text-align:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.container2-bottom .text {
+    padding: 20px;
+    color: #383d46;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+/* CONTAINER 3 */
+
+.container3 {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.container3-top {
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px 5px 400px;
+    flex-wrap: wrap;
+
+}
+
+.container3-bottom {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 400px 100px 400px;
+    justify-content: flex-end;
+
+}
+
+/* CONTAINER 4 */
+
+.container4 {
+    display: flex;
+    margin: 125px 250px;
+    background-color:#3882f6;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: white;
+
+
+}
+
+.container4 .main-text {
+    font-size:28px;
+    font-weight: bold;
+}
+
+.container4 .secondary-text {
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.container4 button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color:transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(39, 37, 37);
+    color: white;
+    padding: 50px 50px;
+
+}
